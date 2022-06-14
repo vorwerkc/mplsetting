@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def set_plot(ws, hs):
     #set_latex_plot()
-    plt.style.use(['seaborn-notebook'])
+    plt.style.use(['seaborn-deep'])
     plt.rcParams['axes.grid'] = True
     plt.rcParams['grid.color'] = "grey"
     plt.rcParams['grid.linewidth'] = 1
